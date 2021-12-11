@@ -1,0 +1,21 @@
+.board {
+	width: 400px;
+	height: 400px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	gap: 2px;
+
+	@media (max-width: 425px) {
+		width: 270px;
+		height: 270px;
+	}
+}
+
+.youWin {
+	font-size: 3rem;
+	color: var(--onCellBackground);
+	@media (max-width: 425px) {
+		font-size: 2rem;
+	}
+}

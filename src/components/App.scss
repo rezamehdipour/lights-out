@@ -1,0 +1,18 @@
+.wrapper {
+}
+
+.head {
+	font-size: 5rem;
+	text-align: center;
+	margin-bottom: 1rem;
+	@media (max-width: 425px) {
+		font-size: 3.5rem;
+	}
+	.lights {
+		color: #60a5fa;
+		margin-right: 2rem;
+	}
+	.out {
+		color: #fbbf24;
+	}
+}

@@ -1,0 +1,16 @@
+.cell {
+	background-color: var(--offCellBackground);
+	cursor: pointer;
+	transition-duration: 0.2s;
+
+	&:hover {
+		background-color: var(--offCellHoverBackground);
+	}
+
+	&.on {
+		background-color: var(--onCellBackground);
+		&:hover {
+			background-color: var(--onCellHoverBackground);
+		}
+	}
+}
