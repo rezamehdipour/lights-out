@@ -3,13 +3,13 @@
         "id": 1,
         "x": 1,
         "y": 1,
-        "on": true
+        "on": false
     },
     {
         "id": 2,
         "x": 2,
         "y": 1,
-        "on": false
+        "on": true
     },
     {
         "id": 3,
@@ -45,7 +45,7 @@
         "id": 8,
         "x": 3,
         "y": 2,
-        "on": false
+        "on": true
     },
     {
         "id": 9,
@@ -63,7 +63,7 @@
         "id": 11,
         "x": 1,
         "y": 3,
-        "on": true
+        "on": false
     },
     {
         "id": 12,
@@ -75,7 +75,7 @@
         "id": 13,
         "x": 3,
         "y": 3,
-        "on": false
+        "on": true
     },
     {
         "id": 14,
@@ -87,7 +87,7 @@
         "id": 15,
         "x": 5,
         "y": 3,
-        "on": false
+        "on": true
     },
     {
         "id": 16,
@@ -99,7 +99,7 @@
         "id": 17,
         "x": 2,
         "y": 4,
-        "on": false
+        "on": true
     },
     {
         "id": 18,
@@ -123,7 +123,7 @@
         "id": 21,
         "x": 1,
         "y": 5,
-        "on": false
+        "on": true
     },
     {
         "id": 22,
@@ -141,12 +141,12 @@
         "id": 24,
         "x": 4,
         "y": 5,
-        "on": false
+        "on": true
     },
     {
         "id": 25,
         "x": 5,
         "y": 5,
-        "on": true
+        "on": false
     }
 ]

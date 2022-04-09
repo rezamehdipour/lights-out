@@ -39,11 +39,9 @@ const Board = (props) => {
 		].filter((element) => element !== undefined);
 
 		let newCellsData = [...cells];
-		newCellsData[findCellIndexById(id)].on =
-			!newCellsData[findCellIndexById(id)].on;
+		newCellsData[findCellIndexById(id)].on = !newCellsData[findCellIndexById(id)].on;
 		for (let cellId of cellsAroundTheCellIds) {
-			newCellsData[findCellIndexById(cellId)].on =
-				!newCellsData[findCellIndexById(cellId)].on;
+			newCellsData[findCellIndexById(cellId)].on = !newCellsData[findCellIndexById(cellId)].on;
 		}
 		setCells(newCellsData);
 	};
@@ -61,13 +59,7 @@ const Board = (props) => {
 			{!win && (
 				<div className="board">
 					{cells.map(({ id, x, y, on }) => {
-						return (
-							<Cell
-								key={id}
-								on={on}
-								onClick={() => toggleCellsAround(id, x, y, on)}
-							/>
-						);
+						return <Cell key={id} on={on} onClick={() => toggleCellsAround(id, x, y, on)} />;
 					})}
 				</div>
 			)}
